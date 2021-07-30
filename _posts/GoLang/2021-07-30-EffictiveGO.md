@@ -6,7 +6,7 @@ sharing: true
 show_author_profile: true
 typora-copy-images-to: ..\..\assets\blog_img
 typora-root-url: ..\..
-key: 1
+key: 2021-07-30-golang-effectivego
 comment: true
 mermaid: true
 chart: true
