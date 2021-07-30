@@ -1,9 +1,15 @@
 ---
+layout: article
 title: Effective Go
 tags: GoLang
 sharing: true
+show_author_profile: true
 typora-copy-images-to: ..\..\assets\blog_img
 typora-root-url: ..\..
+key: 1
+comment: true
+mermaid: true
+chart: true
 ---
 
 本文翻译自[Effective Go](https://golang.org/doc/effective_go)，语句不太通顺，也可能有某些错误，欢饮指正！
