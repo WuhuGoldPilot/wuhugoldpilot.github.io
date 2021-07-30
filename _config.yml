@@ -127,6 +127,7 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
+    proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
     clientID    : 0ee17ab07ac5fb0d69cd # GitHub Application Client ID
     clientSecret: adbe1fcc3953beb18d5866c31dc27688c5bd0f4e # GitHub Application Client Secret
     repository  : wuhugoldpilot.github.io # GitHub repo
