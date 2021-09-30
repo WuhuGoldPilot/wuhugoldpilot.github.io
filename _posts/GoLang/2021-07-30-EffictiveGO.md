@@ -12,7 +12,7 @@ mermaid: true
 chart: true
 ---
 
-本文翻译自[Effective Go](https://golang.org/doc/effective_go)，语句不太通顺，也可能有某些错误，欢饮指正！
+本文翻译自[Effective Go](https://golang.org/doc/effective_go)，语句不太通顺，也可能有某些错误，欢迎指正！
 
 ## Go代码规范
 
