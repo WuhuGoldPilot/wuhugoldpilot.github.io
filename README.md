@@ -1,3 +1,3 @@
 # wuhugoldpilot.github.io
 
-Hello, World! 
+This is my blog repository! 
