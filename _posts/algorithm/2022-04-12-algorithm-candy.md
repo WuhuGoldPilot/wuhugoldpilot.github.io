@@ -1,12 +1,12 @@
 ---
 layout: article
-title: 分发饼干
+title: 分发糖果
 tags: algorithm greedy allocation
 sharing: true
 show_author_profile: true
 typora-copy-images-to: ..\..\assets\blog_img
 typora-root-url: ..\..
-key: 2022-04-08-algorithm-findContentChildren
+key: 2022-04-12-algorithm-candy
 comment: true
 mermaid: true
 chart: true
