@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 分发饼干
-tags: algorithm greedy
+tags: algorithm greedy allocation
 sharing: true
 show_author_profile: true
 typora-copy-images-to: ..\..\assets\blog_img
