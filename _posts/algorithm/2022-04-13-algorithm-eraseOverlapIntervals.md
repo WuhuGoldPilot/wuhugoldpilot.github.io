@@ -59,7 +59,6 @@ import (
 	"sort"
 )
 
-// @lc code=start
 func eraseOverlapIntervals(intervals [][]int) int {
 	n := len(intervals)
 	if n == 0 {
