@@ -46,7 +46,7 @@ chart: true
 提示:  
 $1 <= points.length <= 10^5$
 $points[i].length == 2$
-$-2^31 <= xstart < xend <= 2^31 - 1$
+$-2^{31} <= xstart < xend <= 2^{31} - 1$
 
 # 解题思路
 
