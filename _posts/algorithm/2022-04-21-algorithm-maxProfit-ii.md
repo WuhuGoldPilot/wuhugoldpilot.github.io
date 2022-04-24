@@ -35,7 +35,6 @@ chart: true
 $1 <= prices.length <= 3*10^4$  
 $0 <= prices[i] <= 10^4$
 
-
 # 解题思路
 
 ## 贪心解法
