@@ -69,20 +69,21 @@ $-109 <= nums1[i], nums2[j] <= 109$
 golang实现：
 ```go
 func merge(nums1 []int, m int, nums2 []int, n int) {
-	for p1, p2, tail := m-1, n-1, m+n-1; p1 >= 0 || p2 >= 0; tail-- {
-		if p1 == -1 {
-			nums1[tail] = nums2[p2]
-			p2--
-		} else if p2 == -1 {
-			nums1[tail] = nums1[p1]
-			p1--
-		} else if nums1[p1] > nums2[p2] {
-			nums1[p1+p2+1] = nums1[p1]
-			p1--
+	pos := m + n - 1
+	for m, n = m-1, n-1; m >= 0 && n >= 0; {
+		if nums1[m] > nums2[n] {
+			nums1[pos] = nums1[m]
+			m--
 		} else {
-			nums1[p1+p2+1] = nums2[p2]
-			p2--
+			nums1[pos] = nums2[n]
+			n--
 		}
+		pos--
+	}
+	for n >= 0 {
+		nums1[pos] = nums2[n]
+		n--
+		pos--
 	}
 }
 ```
