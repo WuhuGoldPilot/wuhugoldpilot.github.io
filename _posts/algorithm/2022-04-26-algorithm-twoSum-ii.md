@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 两数之和 II - 输入有序数组
-tags: algorithm double_pointer
+tags: algorithm double_pointer two_sum
 sharing: true
 show_author_profile: true
 typora-copy-images-to: ..\..\assets\blog_img
